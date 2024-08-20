@@ -1,6 +1,6 @@
-# [Project Name]
+# Biting The Warden
 
-Created by [team member], [team member], and [team member].
+Created by Engels G. and Kelly X.C.
 
 ## 🚀 Mission statement
 
@@ -8,9 +8,9 @@ Our application, [app name] is for [target audience]. It allows users to [what i
 
 ## API & React Router
 
-This application will use the [name of API] API. Below are the documentation and specific endpoints we intend to use and the front-end pages that will use them.
+This application will use the Bitwarden Vault Management API. Below are the documentation and specific endpoints we intend to use and the front-end pages that will use them.
 
-- Link to API documentation: [Link goes here]
+- Link to API documentation: https://bitwarden.com/help/vault-management-api/
 - API endpoint #1
   - Description of endpoint
   - List of data values used by the endpoint
@@ -20,8 +20,8 @@ This application will use the [name of API] API. Below are the documentation and
 - API endpoint #3
   - Description of endpoint
   - List of data values used by the endpoint
-
-[If your API requires an API key, say so here.]
+ 
+Our API does **not** require a key.
 
 **Example:**
 - https://api.artic.edu/api/v1/artworks
