@@ -11,15 +11,38 @@ Our application, [app name] is for [target audience]. It allows users to [what i
 This application will use the Bitwarden Vault Management API. Below are the documentation and specific endpoints we intend to use and the front-end pages that will use them.
 
 - Link to API documentation: https://bitwarden.com/help/vault-management-api/
-- API endpoint #1
-  - Description of endpoint
+- API endpoint #1: Lock & Unlock 
+  - Description of endpoints: 
+    - `/lock`: creates a key when a session starts (`POST`)
+    - `/unlock`: destroys the session key at the end (`POST`)
+  - List of data values used by the endpoint: 
+    - 200: Success, and confirmation is returned 
+    - 400: Bad Request 
+    - 404: Not Found 
+    - 500: Internal Server Error
+- API endpoint #2: Vault Items  
+  - Description of endpoint: 
+    - `/object/item`: add a new item (`POST`)
+    - `/object/item/{id}`: edit an item (`PUT`)
+    - `/object/item/{id}`: retrieve an item (`GET`)
+    - `/object/item/{id}`: delete an item (`DELETE`)
+    - `/list/object/items`: retrieve a list of items (`GET`)
   - List of data values used by the endpoint
-- API endpoint #2
-  - Description of endpoint
+    (Same for all of them) 
+    - 200: Success returns an object representing the edited item in the `"data":{} `property 
+      - For retrieving items: Success returns confirmation that the item was restored with `"data":[] `property 
+    - 400: Bad Request 
+    - 404: Not Found 
+    - 500: Internal Server Error
+- API endpoint #3: Attachments & Fields - Username and Password
+  - Description of endpoint: 
+    - `/object/username/{id}`: retrieving the username of the login item
+    - `/object/password/{id}`: retrieving the password of the login item
   - List of data values used by the endpoint
-- API endpoint #3
-  - Description of endpoint
-  - List of data values used by the endpoint
+    - 200: Success returns an object containing username/password of the item 
+    - 400: Bad Request 
+    - 404: Not Found 
+    - 500: Internal Server Error
  
 Our API does **not** require a key.
 
