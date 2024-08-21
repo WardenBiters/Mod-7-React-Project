@@ -168,7 +168,7 @@ Below, you can find wireframes for our project. Each wireframe shows a different
 
 https://excalidraw.com/#json=R21Xg_xWHoR8via3rnu21,zP1OArs0O7GOKeervjf1gQ 
 
-![locked vault](https://imgur.com/lsQDe3E "Locked Vault")
+![locked vault](https://i.imgur.com/lsQDe3E.png "Locked Vault")
 
 [Wireframe for page 1]
 
