@@ -90,32 +90,74 @@ If time permits, the following stretch features will be implemented in order of 
 
 To ensure that we can complete all core features of the application in 1 week, we will aim to complete tasks according to the following timeline:
 
-**Day 1**
+**Day "-1"**: Mon, 8/19 (Rollout)
 
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [x] Decide on an API 
+- [x] Finish the assignments related to this project topic 
 
-**Day 2**
+**Day 0**: Tues, 8/20 (Proposal and Organization, **due today @ 5 PM**)
 
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [WIP] Work on project proposal
+- [x] Decide on who is going to be Scrum Master  
+- [WIP] Setup organization and Scrum Board 
+- [x] Submit organization
 
-**Day 3** (MVP due by the end of the day)
+**Day 1**: Wed, 8/21 
 
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [ ] API testing (through console logs)
+  - [ ] Unlocking the vault 
+  - [ ] Locking the vault 
+  - [ ] Adding an item
+  - [ ] Editing an item
+  - [ ] Retrieving an item
+  - [ ] Deleting an item
+  - [ ] Retrieving a list of items 
 
-**Day 4**
+**Day 2**: Thurs, 8/22 
 
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
-- [ ] Ticket description and due date
+- [ ] API functionality 
+  - [ ] User can unlock the vault 
+  - [ ] User can lock the vault 
+  - [ ] User can add an item
+    - [ ] API takes in username and password
+  - [ ] User can edit an item
+  - [ ] User can retrieve an item
+  - [ ] User can delete an item
+  - [ ] User can retrieve a list of items
+- [ ] Rendering 
+  - Components
 
-**Day 5**
 
+**Day 3-4**: Fri and Sat, 8/23 and 8/24 
+
+- [ ] Testing website 
+
+**Day 4**: Sat, 8/24 or Sun, 8/25 (Stretch)
+
+- [ ] User can add notes to an item
+- [ ] User can make and edit a folder 
+- [ ] User can generate a password
+
+**Day 5**: Mon, 8/26 (Demo and Presentation Slides)
+
+- [ ] Decide who is making the slides, start and complete it
+- [ ] Decide who is making the demo, start and complete it
+
+**Day 6**: Tues, 8/27 (Demo and Presentation Slides Cont., **due tonight @ 11:59 PM**)
+
+- [ ] Finish the slides 
+- [ ] Finish the demo video  
+- [ ] Add any finishing touches to the slides 
+- [ ] Submit slides 
+
+**Day 7**: Wed, 8/28 (Presentation)
+
+- [ ] Walkthrough the presentation together, write speaker notes 
+
+
+(Template below) 
+
+**Day #**: Day, Month/Day
 - [ ] Ticket description and due date
 - [ ] Ticket description and due date
 - [ ] Ticket description and due date
@@ -123,6 +165,8 @@ To ensure that we can complete all core features of the application in 1 week, w
 ## Wireframes of each page in your application
 
 Below, you can find wireframes for our project. Each wireframe shows a different page of our application as well as the key components of the application. Details such as specific text values or images are intentionally not included:
+
+https://excalidraw.com/#json=R21Xg_xWHoR8via3rnu21,zP1OArs0O7GOKeervjf1gQ 
 
 [Wireframe for page 1]
 
