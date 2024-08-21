@@ -168,8 +168,15 @@ Below, you can find wireframes for our project. Each wireframe shows a different
 
 https://excalidraw.com/#json=R21Xg_xWHoR8via3rnu21,zP1OArs0O7GOKeervjf1gQ 
 
+The design might have minor changes later
+
+Locked Vault Screen
 ![locked vault](https://i.imgur.com/lsQDe3E.png "Locked Vault")
-
-[Wireframe for page 1]
-
-[Wireframe for page 2]
+Empty Vault Screen
+![empy vault](https://i.imgur.com/5YcxKwd.png "Empty Vault")
+Creating new vault item screen
+![New Item Form](https://i.imgur.com/GxPRTuX.png "New Item Font")
+Displaying vault items
+![Loaded Vault](https://i.imgur.com/7xV9NoZ.png "Loaded Vault")
+Editing vault item
+![Editing Vault Item](https://i.imgur.com/8uswBHt.png "Editing Vault Item")
